@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Scroll CSS </title>
+<style type="text/css">
+html{
+	scroll-behavior: smooth;
+	background-color:#F8ECD1 ;
+}
+a{
+	display: inline-block;
+	width: auto;
+	text-decoration: none;
+	font-size: 1.3em;
+	border: 3px solid seagreen;
+	background-color:#F8ECD1 ;
+}
+nav,scroll-container{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	background-color:#F8ECD1 ;
+}
+nav,{
+	width: 600px;
+	padding: 5px;
+	border: 5px solid seagreen;
+}
+scroll-container{
+	width: 800px;
+	height: auto;
+	position: relative;
+}
+img{
+	width: 500px;
+	position: relative;
+}
+scroll-page{
+	border: 5px solid seagreen;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	font-size: 2em;
+	margin: 5px;
+	border-image:5px solid seagreen ;
+	background-color:#F8ECD1 ;
+}
+
+}
+#topo{
+	position: absolute;
+	bottom: 15px;
+	right: 25px;
+
+}		
+</style>
+
+</head>
+<body>
+   <nav>
+	  <a href="#page-1"> Calopsita </a>
+	  <a href="#page-2"> Periquito Australiano </a>
+	  <a href="#page-3"> Agapornis </a>
+   </nav>
+      <scroll-container>
+      	<img src="istockphoto-510797946-612x612.jpg">
+      	<scroll-page id="page-1">
+      	<h2> Calopsita </h2> <hr>
+      	A calopsita é um pássaro muito inteligente, comumente escolhido como pet pela sua habilidade em aprender a falar, cantar e realizar pequenos truques. Ela também é conhecida pela sua capacidade de imitar sons e barulhos repetitivos.
+
+        Originária da Austrália, a calopsita é um dos menores exemplares da família de papagaios e, muitas vezes, é confundida com a cacatua, sua “prima em tamanho maior”, que é normalmente inteira branca, preta ou salmão.
+
+        Calopsitas são facilmente reconhecidas pela sua crista característica, além da plumagem em tons de branco, amarelo ou cinza.
+      </scroll-page>
+        <img src="periquito-como-cuidar-principal.png">
+      	<scroll-page id="page-2">
+      	<h2> Periquito Australiano </h2> <hr>
+        Eles são alegres, divertidos, coloridos e ótimos companheiros. São muitos os tipos de periquitos existentes e que podem fazer parte do seu lar. Seu jeito de ser, cheio de simpatia, é tão encantador que essa ave se tornou uma das mais famosas em diversos países.
+
+        Além de voar e cantar, esse animal se torna ainda mais especial pela habilidade de reproduzir palavras ditas por humanos.
+         <a href="#page-1"> Calopsita </a> 
+      </scroll-page> 
+        <img src="agapornis.jpg"> 
+        <scroll-page id="page-3">
+        <h2> Agapornis </h2> <hr>
+        Agapornis não é uma ave e sim um gênero de pássaros. Ao todo, são nove espécies de aves exóticas conhecidas como aves do amor. De origem africana elas são pequeninas, podendo medir entre 12 a 18 centímetros. Podem ser encontradas em diversas cores.
+
+        Estas aves são muito carinhosas e inteligentes. Além disso, são conhecidas por serem monogâmicas, ou seja, possuem um único parceiro a vida toda.  É por isso que ganharam o nome de pássaro do amor!
+          <a href="#page-2"> Periquito Australiano </a>
+      </scroll-page> 
+          <a id="topo" href="#top"> Home </a>
+     </scroll-container>       
+</body>
+</html>
